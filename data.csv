@@ -1,0 +1,302 @@
+,Date,Year,Country_1,Country_2,Score_1,Score_2,Competition,Location,Elo_Score_Change_1,Elo_Score_Change_2,Elo_Score_New_1,Elo_Score_New_2,Rank_Change_1,Rank_Change_2,Rank_New_1,Rank_New_2
+0,January 2,2018,Oman,Bahrain,1,0,Gulf Cup,in Kuwait,15,-15,1528,1402,4,-5,75,107
+1,January 2,2018,Iraq,United Arab Emirates,0,0,Gulf Cup,in Kuwait,0,0,1569,1563,0,0,68,71
+2,January 5,2018,Oman,United Arab Emirates,0,0,Gulf Cup,in Kuwait,2,-2,1530,1561,0,0,75,71
+3,January 7,2018,Estonia,Sweden,1,1,Friendly,in the United Arab Emirates,7,-7,1514,1818,2,0,79,20
+4,January 11,2018,Finland,Jordan,2,1,Friendly,in the United Arab Emirates,7,-7,1602,1469,0,-3,65,90
+5,January 14,2018,Indonesia,Iceland,1,4,Friendly,in Indonesia,-2,2,1231,1813,0,0,154,21
+6,January 27,2018,South Korea,Moldova,1,0,Friendly,in Turkey,2,-2,1763,1330,1,0,24,123
+7,January 28,2018,United States,Bosnia and Herzegovina,0,0,Friendly,in the United States,-4,4,1748,1727,-1,0,28,36
+8,January 30,2018,Jamaica,South Korea,2,2,Friendly,in Turkey,5,-5,1570,1758,1,-1,68,25
+9,January 30,2018,Azerbaijan,Moldova,0,0,Friendly,in Turkey,-2,2,1399,1332,-1,0,109,123
+10,January 31,2018,Mexico,Bosnia and Herzegovina,1,0,Friendly,in the United States,7,-7,1855,1720,0,0,17,36
+11,February 3,2018,South Korea,Latvia,1,0,Friendly,in Turkey,2,-2,1760,1360,0,0,25,120
+12,February 26,2018,Saudi Arabia,Moldova,3,0,Friendly,in Saudi Arabia,4,-4,1578,1328,0,0,67,123
+13,February 28,2018,Iraq,Saudi Arabia,4,1,Friendly,in Iraq,13,-13,1582,1565,3,-2,66,69
+14,March 17,2018,Iran,Sierra Leone,4,0,Friendly,in Iran,2,-2,1801,1377,0,0,22,114
+15,March 20,2018,Tahiti,New Caledonia,0,0,Friendly,in Tahiti,-3,3,1218,1214,-1,1,157,159
+16,March 21,2018,Zambia,Zimbabwe,2,2,Friendly tournament,in Zambia,-5,5,1497,1477,-1,1,83,88
+17,March 21,2018,Madagascar,Togo,0,0,Friendly,in France,0,0,1368,1384,0,0,119,111
+18,March 21,2018,Laos,Cambodia,0,1,Friendly,in Laos,-12,12,770,822,0,0,212,208
+19,March 21,2018,Jordan,Kuwait,1,0,Friendly,in Jordan,6,-6,1475,1427,0,-1,90,98
+20,March 21,2018,Iraq,Qatar,2,3,Friendly tournament,in Iraq,-24,24,1558,1481,-5,6,71,86
+21,March 21,2018,Antigua and Barbuda,Bermuda,3,2,Friendly,in Antigua and Barbuda,7,-7,1212,1189,1,-2,161,166
+22,March 21,2018,Angola,South Africa,1,1,Friendly tournament,in Zambia,10,-10,1250,1530,2,-2,150,74
+23,March 21,2018,Andorra,Liechtenstein,1,0,Friendly,in Spain,14,-14,1026,1154,0,-3,188,171
+24,March 22,2018,Thailand,Gabon,0,0,King's Cup,in Thailand,-4,4,1403,1418,-1,1,106,102
+25,March 22,2018,Slovakia,United Arab Emirates,2,1,King's Cup,in Thailand,8,-8,1756,1553,2,0,26,70
+26,March 22,2018,Philippines,Fiji,3,2,Friendly,in the Philippines,10,-10,1169,1247,1,-6,168,151
+27,March 22,2018,Nicaragua,Cuba,3,1,Friendly,in Nicaragua,13,-13,1280,1296,4,-4,138,131
+28,March 22,2018,Malta,Luxembourg,0,1,Friendly,in Malta,-10,10,1206,1332,-4,1,162,123
+29,March 22,2018,Malaysia,Mongolia,2,2,Friendly,in Malaysia,-9,9,1053,662,-2,0,185,224
+30,March 22,2018,Macao,Mauritius,0,1,Friendly,in Macao,-3,3,675,1071,-1,1,223,181
+31,March 22,2018,Kyrgyzstan,Myanmar,5,1,"<a href=""2019_Asian_Cup_qualifying"" onclick=""handleLink('2019_Asian_Cup_qualifying'); return false;"">Asian Cup qualifier</a>",in South Korea,26,-26,1233,1067,8,-5,154,182
+32,March 22,2018,Faroe Islands,Latvia,1,1,Friendly,in Spain,2,-2,1283,1358,1,0,136,120
+33,March 22,2018,Dominican Republic,Turks and Caicos,4,0,Friendly,in the Dominican Republic,1,-1,1251,763,1,0,149,213
+34,March 22,2018,Denmark,Panama,1,0,Friendly,in Denmark,3,-3,1845,1669,0,0,18,48
+35,March 22,2018,China,Wales,0,6,Friendly tournament,in China,-23,23,1541,1786,-3,1,72,23
+36,March 22,2018,Burkina Faso,Guinea-Bissau,2,0,Friendly,in France,4,-4,1609,1289,4,0,59,135
+37,March 22,2018,Belize,Grenada,4,2,Friendly,in Belize,9,-9,1168,1103,0,0,169,174
+38,March 22,2018,Bahrain,Palestine,0,0,Friendly,in Bahrain,-3,3,1399,1403,-1,2,108,106
+39,March 22,2018,Algeria,Tanzania,4,1,Friendly,in Algeria,4,-4,1542,1295,1,-3,71,133
+40,March 23,2018,Uruguay,Czechia,2,0,Friendly tournament,in China,13,-13,1880,1700,0,-5,13,43
+41,March 23,2018,Turkey,Ireland,1,0,Friendly,in Turkey,8,-8,1720,1724,3,-1,36,35
+42,March 23,2018,Tunisia,Iran,1,0,Friendly,in Tunisia,12,-12,1636,1789,1,0,52,22
+43,March 23,2018,Tahiti,New Caledonia,4,3,Friendly,in Tahiti,7,-7,1225,1207,2,-2,156,161
+44,March 23,2018,Singapore,Maldives,3,2,Friendly,in Singapore,4,-4,1061,935,0,-1,183,198
+45,March 23,2018,Senegal,Uzbekistan,1,1,Friendly,in Morocco,-4,4,1748,1613,-1,4,29,55
+46,March 23,2018,Scotland,Costa Rica,0,1,Friendly,in Scotland,-12,12,1708,1758,-3,6,39,25
+47,March 23,2018,Saudi Arabia,Ukraine,1,1,Friendly,in Spain,5,-5,1570,1732,1,0,67,33
+48,March 23,2018,Russia,Brazil,0,3,Friendly,in Russia,-5,5,1693,2119,-2,0,45,1
+49,March 23,2018,Portugal,Egypt,2,1,Friendly,in Switzerland,3,-3,1998,1656,0,1,4,49
+50,March 23,2018,Poland,Nigeria,0,1,Friendly,in Poland,-16,16,1826,1712,0,6,19,38
+51,March 23,2018,Peru,Croatia,2,0,Friendly,in the United States,14,-14,1895,1842,2,-2,10,18
+52,March 23,2018,Norway,Australia,4,1,Friendly,in Norway,20,-20,1602,1708,2,-4,64,39
+53,March 23,2018,Netherlands,England,0,1,Friendly,in the Netherlands,-12,12,1884,1945,-1,0,12,7
+54,March 23,2018,Morocco,Serbia,2,1,Friendly,in Italy,12,-12,1703,1757,4,-2,41,26
+55,March 23,2018,Mexico,Iceland,3,0,Friendly,in the United States,15,-15,1870,1798,2,0,15,21
+56,March 23,2018,Japan,Mali,1,1,Friendly,in Belgium,-5,5,1701,1519,0,0,42,79
+57,March 23,2018,Hungary,Kazakhstan,2,3,Friendly,in Hungary,-18,18,1594,1358,-9,1,66,120
+58,March 23,2018,Guadeloupe,Trinidad and Tobago,0,1,Friendly,in Guadeloupe,-8,8,1259,1428,-1,4,144,97
+59,March 23,2018,Greece,Switzerland,0,1,Friendly,in Greece,-7,7,1655,1873,-1,0,50,14
+60,March 23,2018,Germany,Spain,1,1,Friendly,in Germany,-5,5,2104,2037,0,0,2,3
+61,March 23,2018,Gambia,Central African Republic,1,1,Friendly,in The Gambia,-2,2,1276,1299,-1,1,140,129
+62,March 23,2018,France,Colombia,2,3,Friendly,in France,-14,14,1976,1941,-1,1,6,8
+63,March 23,2018,Finland,Macedonia,0,0,Friendly,in Turkey,-2,2,1600,1522,0,0,65,78
+64,March 23,2018,Cyprus,Montenegro,0,0,Friendly,in Cyprus,3,-3,1413,1611,0,0,104,56
+65,March 23,2018,Curaçao,Bolivia,1,1,Friendly,in Curaçao,8,-8,1274,1699,3,-3,141,44
+66,March 23,2018,Bulgaria,Bosnia and Herzegovina,0,1,Friendly,in Bulgaria,-10,10,1611,1730,-2,2,56,34
+67,March 23,2018,Azerbaijan,Belarus,0,1,Friendly,in Azerbaijan,-10,10,1389,1508,-2,0,110,82
+68,March 23,2018,Austria,Slovenia,3,0,Friendly,in Austria,10,-10,1720,1629,4,-1,36,53
+69,March 23,2018,Argentina,Italy,2,0,Friendly,in England,12,-12,1997,1894,1,-1,5,11
+70,March 24,2018,Zambia,South Africa,0,2,Friendly tournament,in Zambia,-27,27,1470,1557,-6,4,89,70
+71,March 24,2018,Uganda,São Tomé and Príncipe,3,1,Friendly,in Uganda,2,-2,1463,1080,1,0,91,178
+72,March 24,2018,Sweden,Chile,1,2,Friendly,in Sweden,-12,12,1806,1872,0,1,20,15
+73,March 24,2018,Qatar,Syria,2,2,Friendly tournament,in Iraq,5,-5,1486,1604,1,-3,85,62
+74,March 24,2018,Northern Ireland,South Korea,2,1,Friendly,in Northern Ireland,10,-10,1684,1750,0,-4,47,28
+75,March 24,2018,Mauritania,Guinea,2,0,Friendly,in Mauritania,18,-18,1316,1455,5,-3,125,94
+76,March 24,2018,Kosovo,Madagascar,1,0,Friendly,in France,10,-10,1381,1358,4,0,113,119
+77,March 24,2018,Kenya,Comoros,2,2,Friendly,in Morocco,-8,8,1389,1047,-1,0,110,186
+78,March 24,2018,Ivory Coast,Togo,2,2,Friendly,in France,-6,6,1599,1390,-2,2,65,109
+79,March 24,2018,Israel,Romania,1,2,Friendly,in Israel,-8,8,1527,1696,-3,1,76,45
+80,March 24,2018,Georgia,Lithuania,4,0,Friendly,in Georgia,10,-10,1494,1397,1,-3,84,108
+81,March 24,2018,Canada,New Zealand,1,0,Friendly,in Spain,10,-10,1534,1515,3,-4,74,80
+82,March 24,2018,Botswana,Lesotho,1,0,Friendly,in Botswana,8,-8,1261,1262,4,0,144,143
+83,March 24,2018,Armenia,Estonia,0,0,Friendly,in Armenia,-2,2,1479,1516,0,1,86,79
+84,March 24,2018,Angola,Zimbabwe,2,2,Friendly tournament,in Zambia,9,-9,1259,1468,5,-2,145,90
+85,March 25,2018,Thailand,Slovakia,2,3,King's Cup,in Thailand,-6,6,1397,1762,-2,2,107,24
+86,March 25,2018,Nicaragua,Cuba,3,3,Friendly,in Nicaragua,-2,2,1278,1298,1,0,137,131
+87,March 25,2018,Martinique,Trinidad and Tobago,0,0,Friendly,in Martinique,-3,3,1423,1431,-1,-1,101,98
+88,March 25,2018,Kuwait,Cameroon,1,3,Friendly,in Kuwait,-10,10,1417,1657,-3,2,102,49
+89,March 25,2018,Jamaica,Antigua and Barbuda,1,1,Friendly,in Jamaica,-9,9,1561,1221,-1,2,68,158
+90,March 25,2018,Gibraltar,Latvia,1,0,Friendly,in Gibraltar,15,-15,1094,1343,2,-2,177,121
+91,March 25,2018,Gabon,United Arab Emirates,1,0,King's Cup,in Thailand,21,-21,1439,1532,5,-3,97,74
+92,March 25,2018,Faroe Islands,Liechtenstein,3,0,Friendly,in Spain,11,-11,1294,1143,1,-1,135,172
+93,March 25,2018,Dominican Republic,Saint Kitts and Nevis,2,1,Friendly,in the Dominican Republic,7,-7,1258,1249,3,-3,147,150
+94,March 25,2018,Congo,Guinea-Bissau,2,0,Friendly,in France,11,-11,1394,1278,3,-2,109,137
+95,March 25,2018,Barbados,Bermuda,0,0,Friendly,in Barbados,-1,1,1137,1190,0,2,173,164
+96,March 26,2018,Uruguay,Wales,1,0,Friendly tournament,in China,11,-11,1891,1775,0,0,13,23
+97,March 26,2018,Netherlands,Portugal,3,0,Friendly,in Switzerland,23,-23,1907,1975,2,-2,10,6
+98,March 26,2018,Finland,Malta,5,0,Friendly,in Turkey,4,-4,1604,1202,2,0,62,162
+99,March 26,2018,Curaçao,Bolivia,1,0,Friendly,in Curaçao,17,-17,1291,1682,5,-3,136,47
+100,March 26,2018,China,Czechia,1,4,Friendly tournament,in China,-22,22,1519,1722,-5,7,77,36
+101,March 26,2018,Bulgaria,Kazakhstan,2,1,Friendly,in Hungary,4,-4,1615,1354,1,-1,55,120
+102,March 26,2018,Albania,Norway,0,1,Friendly,in Albania,-13,13,1596,1615,-6,8,65,55
+103,March 27,2018,United States,Paraguay,1,0,Friendly,in the United States,7,-7,1755,1746,3,-2,26,29
+104,March 27,2018,Ukraine,Japan,2,1,Friendly,in Belgium,9,-9,1741,1692,1,-1,32,44
+105,March 27,2018,Uganda,Malawi,0,0,Friendly,in Uganda,-6,6,1457,1310,-1,-1,92,130
+106,March 27,2018,Tunisia,Costa Rica,1,0,Friendly,in France,13,-13,1649,1745,1,-5,51,30
+107,March 27,2018,Tanzania,Democratic Republic of Congo,2,0,Friendly,in Tanzania,23,-23,1318,1583,8,-5,125,66
+108,March 27,2018,Switzerland,Panama,6,0,Friendly,in Switzerland,6,-6,1879,1663,0,-1,14,49
+109,March 27,2018,Spain,Argentina,6,1,Friendly,in Spain,12,-12,2049,1985,0,0,3,4
+110,March 27,2018,Slovenia,Belarus,0,2,Friendly,in Slovenia,-23,23,1606,1531,-5,7,58,75
+111,March 27,2018,Seychelles,Swaziland,0,0,Friendly,in the Seychelles,6,-6,945,1290,0,-4,197,136
+112,March 27,2018,Serbia,Nigeria,2,0,Friendly,in England,13,-13,1770,1699,2,-4,24,43
+113,March 27,2018,Russia,France,1,3,Friendly,in Russia,-8,8,1685,1984,0,0,45,5
+114,March 27,2018,Romania,Sweden,1,0,Friendly,in Romania,10,-10,1706,1796,2,0,42,20
+115,March 27,2018,Poland,South Korea,3,2,Friendly,in Poland,5,-5,1831,1745,0,-2,19,30
+116,March 27,2018,Peru,Iceland,3,1,Friendly,in the United States,11,-11,1906,1787,0,-1,11,22
+117,March 27,2018,Namibia,Lesotho,2,1,Friendly,in Namibia,4,-4,1381,1258,2,-3,113,146
+118,March 27,2018,Morocco,Uzbekistan,2,0,Friendly,in Morocco,8,-8,1711,1605,1,-3,41,60
+119,March 27,2018,Montenegro,Turkey,2,2,Friendly,in Montenegro,0,0,1611,1720,2,-1,56,38
+120,March 27,2018,Mongolia,Mauritius,0,2,Friendly,in Mongolia,-4,4,658,1075,0,0,224,181
+121,March 27,2018,Luxembourg,Austria,0,4,Friendly,in Luxembourg,-6,6,1326,1726,0,2,123,35
+122,March 27,2018,Laos,Bangladesh,2,2,Friendly,in Laos,-2,2,768,808,0,0,212,209
+123,March 27,2018,Kosovo,Burkina Faso,2,0,Friendly,in France,24,-24,1405,1585,6,-4,107,64
+124,March 27,2018,Ivory Coast,Moldova,2,1,Friendly,in France,3,-3,1602,1325,2,0,62,124
+125,March 27,2018,Iraq,Syria,1,1,Friendly tournament,in Iraq,-2,2,1556,1606,-1,4,70,58
+126,March 27,2018,Iran,Algeria,2,1,Friendly,in Austria,4,-4,1793,1538,1,-1,21,72
+127,March 27,2018,Hungary,Scotland,0,1,Friendly,in Hungary,-10,10,1584,1718,1,1,65,39
+128,March 27,2018,Greece,Egypt,1,0,Friendly,in Switzerland,10,-10,1665,1646,3,-2,48,52
+129,March 27,2018,Germany,Brazil,0,1,Friendly,in Germany,-12,12,2092,2131,0,0,2,1
+130,March 27,2018,Georgia,Estonia,2,0,Friendly,in Georgia,12,-12,1506,1504,2,-4,82,83
+131,March 27,2018,England,Italy,1,1,Friendly,in England,-4,4,1941,1898,0,0,7,12
+132,March 27,2018,Denmark,Chile,0,0,Friendly,in Denmark,-2,2,1843,1874,-1,0,18,15
+133,March 27,2018,Croatia,Mexico,1,0,Friendly,in the United States,11,-11,1853,1859,1,0,17,16
+134,March 27,2018,Central African Republic,Kenya,3,2,Friendly,in Morocco,13,-13,1312,1376,1,-6,129,117
+135,March 27,2018,Bosnia and Herzegovina,Senegal,0,0,Friendly,in France,1,-1,1731,1747,0,2,34,27
+136,March 27,2018,Belgium,Saudi Arabia,4,0,Friendly,in Belgium,3,-3,1931,1567,0,0,9,67
+137,March 27,2018,Azerbaijan,Macedonia,1,1,Friendly,in Turkey,4,-4,1393,1518,0,-3,111,79
+138,March 27,2018,Australia,Colombia,0,0,Friendly,in England,6,-6,1714,1935,0,0,40,8
+139,March 27,2018,Armenia,Lithuania,0,1,Friendly,in Armenia,-15,15,1464,1412,-3,1,89,106
+140,March 27,2018,Yemen,Nepal,2,1,"<a href=""2019_Asian_Cup_qualifying"" onclick=""handleLink('2019_Asian_Cup_qualifying'); return false;"">Asian Cup qualifier</a>",in Qatar,6,-6,1194,894,3,0,164,202
+141,March 27,2018,Taiwan,Singapore,1,0,"<a href=""2019_Asian_Cup_qualifying"" onclick=""handleLink('2019_Asian_Cup_qualifying'); return false;"">Asian Cup qualifier</a>",in Taiwan,19,-19,994,1042,0,-3,192,186
+142,March 27,2018,Philippines,Tajikistan,2,1,"<a href=""2019_Asian_Cup_qualifying"" onclick=""handleLink('2019_Asian_Cup_qualifying'); return false;"">Asian Cup qualifier</a>",in the Philippines,17,-17,1186,1197,1,-3,167,163
+143,March 27,2018,Oman,Palestine,1,0,"<a href=""2019_Asian_Cup_qualifying"" onclick=""handleLink('2019_Asian_Cup_qualifying'); return false;"">Asian Cup qualifier</a>",in Oman,9,-9,1539,1394,3,-4,71,109
+144,March 27,2018,North Korea,Hong Kong,2,0,"<a href=""2019_Asian_Cup_qualifying"" onclick=""handleLink('2019_Asian_Cup_qualifying'); return false;"">Asian Cup qualifier</a>",in North Korea,7,-7,1457,1183,4,-4,92,168
+145,March 27,2018,Myanmar,Macao,1,0,"<a href=""2019_Asian_Cup_qualifying"" onclick=""handleLink('2019_Asian_Cup_qualifying'); return false;"">Asian Cup qualifier</a>",in Myanmar,2,-2,1069,673,0,0,182,223
+146,March 27,2018,Maldives,Bhutan,7,0,"<a href=""2019_Asian_Cup_qualifying"" onclick=""handleLink('2019_Asian_Cup_qualifying'); return false;"">Asian Cup qualifier</a>",in the Maldives,7,-7,942,585,0,0,198,231
+147,March 27,2018,Lebanon,Malaysia,2,1,"<a href=""2019_Asian_Cup_qualifying"" onclick=""handleLink('2019_Asian_Cup_qualifying'); return false;"">Asian Cup qualifier</a>",in Lebanon,2,-2,1459,1051,1,1,91,184
+148,March 27,2018,Kyrgyzstan,India,2,1,"<a href=""2019_Asian_Cup_qualifying"" onclick=""handleLink('2019_Asian_Cup_qualifying'); return false;"">Asian Cup qualifier</a>",in Kyrgyzstan,11,-11,1244,1149,2,-1,152,171
+149,March 27,2018,Jordan,Vietnam,1,1,"<a href=""2019_Asian_Cup_qualifying"" onclick=""handleLink('2019_Asian_Cup_qualifying'); return false;"">Asian Cup qualifier</a>",in Jordan,-14,14,1461,1285,-2,5,90,137
+150,March 27,2018,Bahrain,Turkmenistan,4,0,"<a href=""2019_Asian_Cup_qualifying"" onclick=""handleLink('2019_Asian_Cup_qualifying'); return false;"">Asian Cup qualifier</a>",in Bahrain,15,-15,1414,1239,2,-4,104,153
+151,March 27,2018,Afghanistan,Cambodia,2,1,"<a href=""2019_Asian_Cup_qualifying"" onclick=""handleLink('2019_Asian_Cup_qualifying'); return false;"">Asian Cup qualifier</a>",in Tajikistan,5,-5,1154,817,1,0,170,208
+152,April 1,2018,Malaysia,Bhutan,7,0,Friendly,in Malaysia,2,-2,1053,583,0,0,184,231
+153,April 1,2018,Antigua and Barbuda,Dominica,0,0,Friendly,in Antigua and Barbuda,-7,7,1214,1012,-1,0,159,189
+154,April 17,2018,Trinidad and Tobago,Panama,0,1,Friendly,in Trinidad and Tobago,-6,6,1425,1669,-1,1,99,48
+155,April 18,2018,Zimbabwe,Botswana,0,1,Friendly,in Zimbabwe,-17,17,1451,1278,-8,4,96,139
+156,April 19,2018,Swatini,Namibia,1,0,Friendly,in Swatini,10,-10,1300,1371,4,-4,132,117
+157,April 26,2018,Saint Kitts and Nevis,Jamaica,1,3,Friendly,in Saint Kitts and Nevis,-7,7,1242,1568,-3,1,152,67
+158,April 29,2018,Antigua and Barbuda,Jamaica,0,2,Friendly,in Antigua and Barbuda,-6,6,1208,1574,0,0,159,67
+159,April 29,2018,Saint Barthélemy,Saint Martin,3,1,Friendly,in Saint Barthélemy,18,-18,712,842,1,-2,216,206
+160,May 8,2018,Iraq,Palestine,0,0,Friendly,in Iraq,-6,6,1550,1400,0,1,70,108
+161,May 9,2018,Saudi Arabia,Algeria,2,0,Friendly,in Spain,14,-14,1581,1524,1,-4,67,76
+162,May 11,2018,Kuwait,Palestine,2,0,Friendly,in Kuwait,10,-10,1427,1390,3,-3,99,111
+163,May 15,2018,Saudi Arabia,Greece,2,0,Friendly,in Spain,19,-19,1600,1646,4,-2,63,51
+164,May 19,2018,Iran,Uzbekistan,1,0,Friendly,in Iran,3,-3,1796,1602,1,-1,20,61
+165,May 20,2018,Jordan,Cyprus,3,0,Friendly,in Jordan,10,-10,1471,1403,2,-2,87,107
+166,May 25,2018,Kuwait,Egypt,1,1,Friendly,in Kuwait,3,-3,1430,1643,1,-1,98,52
+167,May 25,2018,Kenya,Swatini,0,1,Friendly,in Kenya,-15,15,1361,1315,-2,4,118,128
+168,May 26,2018,China,Myanmar,1,0,Friendly,in China,1,-1,1520,1068,0,0,77,182
+169,May 26,2018,Saint Barthélemy,Sint Maarten,5,3,Friendly,in Saint Barthélemy,18,-18,730,868,1,0,215,203
+170,May 27,2018,Niger,Central African Republic,3,3,Friendly tournament,in Niger,-4,4,1291,1316,-1,4,135,126
+171,May 27,2018,Burkina Faso,Cameroon,1,0,Friendly,in France,12,-12,1597,1645,1,-2,64,51
+172,May 27,2018,Madagascar,Mozambique,2,1,"<a href=""2018_COSAFA_Cup"" onclick=""handleLink('2018_COSAFA_Cup'); return false;"">COSAFA Cup</a>",in South Africa,18,-18,1376,1297,3,-5,116,133
+173,May 27,2018,Comoros,Seychelles,1,1,"<a href=""2018_COSAFA_Cup"" onclick=""handleLink('2018_COSAFA_Cup'); return false;"">COSAFA Cup</a>",in South Africa,-6,6,1041,951,-1,4,186,193
+174,May 28,2018,Mauritius,Malawi,1,0,"<a href=""2018_COSAFA_Cup"" onclick=""handleLink('2018_COSAFA_Cup'); return false;"">COSAFA Cup</a>",in South Africa,32,-32,1107,1278,7,-9,174,139
+175,May 28,2018,Botswana,Angola,2,1,"<a href=""2018_COSAFA_Cup"" onclick=""handleLink('2018_COSAFA_Cup'); return false;"">COSAFA Cup</a>",in South Africa,19,-19,1297,1240,7,-8,132,152
+176,May 28,2018,United States,Bolivia,3,0,Friendly,in the United States,9,-9,1764,1673,1,0,25,47
+177,May 28,2018,Turkey,Iran,2,1,Friendly,in Turkey,9,-9,1729,1787,4,-1,34,21
+178,May 28,2018,South Korea,Honduras,2,0,Friendly,in South Korea,6,-6,1751,1604,3,-2,27,59
+179,May 28,2018,Portugal,Tunisia,2,2,Friendly,in Portugal,-8,8,1967,1657,0,0,6,49
+180,May 28,2018,Nigeria,Democratic Republic of Congo,1,1,Friendly,in Nigeria,-6,6,1693,1589,0,1,43,66
+181,May 28,2018,Mexico,Wales,0,0,Friendly,in the United States,-2,2,1857,1777,0,0,16,23
+182,May 28,2018,Kenya,Equatorial Guinea,1,0,Friendly,in Kenya,6,-6,1367,1327,0,0,119,122
+183,May 28,2018,Italy,Saudi Arabia,2,1,Friendly,in Switzerland,3,-3,1901,1597,0,0,12,63
+184,May 28,2018,France,Ireland,2,0,Friendly,in France,3,-3,1987,1721,1,-2,4,38
+185,May 28,2018,Bosnia and Herzegovina,Montenegro,0,0,Friendly,in Bosnia and Herzegovina,-6,6,1725,1617,-2,3,36,53
+186,May 29,2018,Madagascar,Seychelles,1,1,"<a href=""2018_COSAFA_Cup"" onclick=""handleLink('2018_COSAFA_Cup'); return false;"">COSAFA Cup</a>",in South Africa,-17,17,1359,968,-3,0,119,193
+187,May 29,2018,Mozambique,Comoros,3,0,"<a href=""2018_COSAFA_Cup"" onclick=""handleLink('2018_COSAFA_Cup'); return false;"">COSAFA Cup</a>",in South Africa,13,-13,1310,1028,2,-1,130,187
+188,May 29,2018,Peru,Scotland,2,0,Friendly,in Peru,5,-5,1911,1713,1,-1,10,40
+189,May 29,2018,Panama,Northern Ireland,0,0,Friendly,in Panama,-2,2,1667,1686,0,1,48,45
+190,May 29,2018,Kosovo,Albania,3,0,Friendly,in Switzerland,26,-26,1431,1570,8,-3,98,68
+191,May 29,2018,Azerbaijan,Kyrgyzstan,3,0,Friendly,in Azerbaijan,7,-7,1400,1237,2,-4,108,154
+192,May 29,2018,Armenia,Malta,1,1,Friendly,in Austria,-6,6,1458,1208,-1,2,90,159
+193,May 29,2018,Argentina,Haiti,4,0,Friendly,in Argentina,1,-1,1986,1494,0,0,5,84
+194,May 30,2018,Botswana,Malawi,1,1,"<a href=""2018_COSAFA_Cup"" onclick=""handleLink('2018_COSAFA_Cup'); return false;"">COSAFA Cup</a>",in South Africa,-1,1,1296,1279,0,0,133,139
+195,May 30,2018,Angola,Mauritius,1,0,"<a href=""2018_COSAFA_Cup"" onclick=""handleLink('2018_COSAFA_Cup'); return false;"">COSAFA Cup</a>",in South Africa,13,-13,1253,1094,3,-3,148,177
+196,May 30,2018,Japan,Ghana,0,2,Friendly,in Japan,-22,22,1670,1639,-3,0,47,53
+197,May 30,2018,Estonia,Lithuania,2,0,Baltic Cup,in Estonia,11,-11,1515,1401,3,-1,80,107
+198,May 30,2018,Central African Republic,Uganda,1,0,Friendly tournament,in Niger,21,-21,1337,1436,4,-6,122,97
+199,May 30,2018,Austria,Russia,1,0,Friendly,in Austria,6,-6,1732,1679,1,1,34,45
+200,May 31,2018,Mozambique,Seychelles,2,1,"<a href=""2018_COSAFA_Cup"" onclick=""handleLink('2018_COSAFA_Cup'); return false;"">COSAFA Cup</a>",in South Africa,5,-5,1315,963,1,0,129,193
+201,May 31,2018,Madagascar,Comoros,1,0,"<a href=""2018_COSAFA_Cup"" onclick=""handleLink('2018_COSAFA_Cup'); return false;"">COSAFA Cup</a>",in South Africa,5,-5,1364,1023,0,-1,119,188
+202,May 31,2018,Slovakia,Netherlands,1,1,Friendly,in Slovakia,1,-1,1763,1906,0,0,26,11
+203,May 31,2018,Romania,Chile,3,2,Friendly,in Austria,14,-14,1720,1860,3,0,39,15
+204,May 31,2018,Morocco,Ukraine,0,0,Friendly,in Switzerland,1,-1,1712,1740,-1,1,42,31
+205,May 31,2018,Luxembourg,Senegal,0,0,Friendly,in Luxembourg,7,-7,1333,1740,1,-3,123,31
+206,June 1,2018,Botswana,Mauritius,6,0,"<a href=""2018_COSAFA_Cup"" onclick=""handleLink('2018_COSAFA_Cup'); return false;"">COSAFA Cup</a>",in South Africa,20,-20,1316,1074,6,-4,127,181
+207,June 1,2018,Angola,Malawi,0,0,"<a href=""2018_COSAFA_Cup"" onclick=""handleLink('2018_COSAFA_Cup'); return false;"">COSAFA Cup</a>",in South Africa,1,-1,1254,1278,0,0,148,139
+208,June 1,2018,Tunisia,Turkey,2,2,Friendly,in Switzerland,2,-2,1659,1727,0,-2,49,37
+209,June 1,2018,South Korea,Bosnia and Herzegovina,1,3,Friendly,in South Korea,-20,20,1731,1745,-9,7,36,29
+210,June 1,2018,India,Taiwan,5,0,Friendly tournament,in India,11,-11,1160,983,1,0,170,192
+211,June 1,2018,Georgia,Malta,1,0,Friendly,in Austria,3,-3,1509,1205,1,-2,82,161
+212,June 1,2018,France,Italy,3,1,Friendly,in France,8,-8,1995,1893,0,0,4,12
+213,June 1,2018,Colombia,Egypt,0,0,Friendly,in Italy,-7,7,1928,1650,-1,2,9,50
+214,June 1,2018,Australia,Czechia,4,0,Friendly,in Austria,19,-19,1733,1703,6,-5,34,42
+215,June 1,2018,Algeria,Cape Verde,2,3,Friendly,in Algeria,-15,15,1509,1443,-6,4,82,96
+216,June 2,2018,Namibia,Zambia,0,0,"<a href=""2018_COSAFA_Cup"" onclick=""handleLink('2018_COSAFA_Cup'); return false;"">COSAFA Cup</a>",in South Africa,6,-6,1377,1464,1,-1,115,89
+217,June 2,2018,Lesotho,Swatini,1,0,"<a href=""2018_COSAFA_Cup"" onclick=""handleLink('2018_COSAFA_Cup'); return false;"">COSAFA Cup</a>",in South Africa,23,-23,1281,1292,6,-5,139,135
+218,June 2,2018,Thailand,China,0,2,Friendly,in Thailand,-14,14,1383,1534,-4,4,113,72
+219,June 2,2018,Sweden,Denmark,0,0,Friendly,in Sweden,-2,2,1794,1845,0,0,20,18
+220,June 2,2018,Northern Cyprus,Tibet,3,1,World Football Cup,in England,1,-1,1456,630,0,0,93,227
+221,June 2,2018,Niger,Uganda,2,1,Friendly tournament,in Niger,17,-17,1308,1419,4,-5,131,103
+222,June 2,2018,Montenegro,Slovenia,0,2,Friendly,in Montenegro,-20,20,1597,1626,-7,2,61,55
+223,June 2,2018,Mexico,Scotland,1,0,Friendly,in Mexico,4,-4,1861,1709,1,-1,15,41
+224,June 2,2018,Latvia,Estonia,1,0,Baltic Cup,in Latvia,18,-18,1361,1497,1,-3,120,82
+225,June 2,2018,Kenya,New Zealand,2,1,Friendly tournament,in India,21,-21,1388,1494,6,-4,112,83
+226,June 2,2018,Ireland,United States,2,1,Friendly,in Ireland,8,-8,1729,1756,1,-1,37,26
+227,June 2,2018,Iceland,Norway,2,3,Friendly,in Iceland,-17,17,1770,1632,-2,1,23,54
+228,June 2,2018,England,Nigeria,2,1,Friendly,in England,2,-2,1943,1691,0,0,7,43
+229,June 2,2018,El Salvador,Honduras,1,0,Friendly,in the United States,14,-14,1471,1590,4,-5,87,64
+230,June 2,2018,Belgium,Portugal,0,0,Friendly,in Belgium,-2,2,1929,1969,0,0,8,6
+231,June 2,2018,Austria,Germany,2,1,Friendly,in Austria,16,-16,1748,2076,8,0,27,2
+232,June 3,2018,South Africa,Madagascar,0,0,"<a href=""2018_COSAFA_Cup"" onclick=""handleLink('2018_COSAFA_Cup'); return false;"">COSAFA Cup</a>",in South Africa,-14,14,1543,1378,-1,4,70,115
+233,June 3,2018,Botswana,Zimbabwe,1,1,"<a href=""2018_COSAFA_Cup"" onclick=""handleLink('2018_COSAFA_Cup'); return false;"">COSAFA Cup</a>",in South Africa,7,-7,1323,1444,1,0,126,95
+234,June 3,2018,Ukraine,Albania,4,1,Friendly,in France,10,-10,1750,1560,4,0,28,68
+235,June 3,2018,Spain,Switzerland,1,1,Friendly,in Spain,-7,7,2042,1886,0,0,3,14
+236,June 3,2018,Peru,Saudi Arabia,3,0,Friendly,in Switzerland,5,-5,1916,1592,0,-2,10,63
+237,June 3,2018,Costa Rica,Northern Ireland,3,0,Friendly,in Costa Rica,10,-10,1755,1676,3,-1,27,45
+238,June 3,2018,Brazil,Croatia,2,0,Friendly,in England,5,-5,2136,1848,0,0,1,17
+239,June 3,2018,Barbados,Belize,0,0,Friendly,in Barbados,-2,2,1135,1170,0,0,173,169
+240,June 3,2018,Andorra,Cape Verde,0,0,Friendly,in Portugal,8,-8,1034,1435,1,-1,186,97
+241,June 4,2018,Morocco,Slovakia,2,1,Friendly,in Switzerland,11,-11,1723,1752,1,-2,39,27
+242,June 4,2018,Italy,Netherlands,1,1,Friendly,in Italy,-2,2,1891,1908,0,0,12,11
+243,June 4,2018,India,Kenya,3,0,Friendly tournament,in India,36,-36,1196,1352,6,-9,164,121
+244,June 4,2018,Chile,Serbia,1,0,Friendly,in Austria,7,-7,1867,1763,1,-1,15,24
+245,June 4,2018,Armenia,Moldova,0,0,Friendly,in Austria,-4,4,1454,1329,-3,1,94,124
+246,June 5,2018,South Africa,Namibia,4,1,"<a href=""2018_COSAFA_Cup"" onclick=""handleLink('2018_COSAFA_Cup'); return false;"">COSAFA Cup</a>",in South Africa,12,-12,1555,1365,1,-4,69,119
+247,June 5,2018,Botswana,Swatini,2,0,"<a href=""2018_COSAFA_Cup"" onclick=""handleLink('2018_COSAFA_Cup'); return false;"">COSAFA Cup</a>",in South Africa,27,-27,1350,1265,4,-9,122,144
+248,June 5,2018,Russia,Turkey,1,1,Friendly,in Russia,-1,1,1678,1728,0,0,44,38
+249,June 5,2018,Romania,Finland,2,0,Friendly,in Romania,7,-7,1727,1597,1,-2,39,60
+250,June 5,2018,New Zealand,Taiwan,1,0,Friendly tournament,in India,2,-2,1496,981,0,0,83,192
+251,June 5,2018,Martinique,French Guiana,3,0,Friendly tournament,in Martinique,16,-16,1439,1361,6,-5,96,120
+252,June 5,2018,Luxembourg,Georgia,1,0,Friendly,in Luxembourg,12,-12,1345,1497,0,-1,123,81
+253,June 5,2018,Lithuania,Latvia,1,1,Baltic Cup,in Lithuania,-6,6,1395,1367,0,1,107,118
+254,June 5,2018,Kazakhstan,Azerbaijan,3,0,Friendly,in Kazakhstan,15,-15,1369,1385,3,-3,117,111
+255,June 6,2018,Zambia,Madagascar,1,0,"<a href=""2018_COSAFA_Cup"" onclick=""handleLink('2018_COSAFA_Cup'); return false;"">COSAFA Cup</a>",in South Africa,15,-15,1479,1363,3,-5,86,119
+256,June 6,2018,Lesotho,Zimbabwe,0,0,"<a href=""2018_COSAFA_Cup"" onclick=""handleLink('2018_COSAFA_Cup'); return false;"">COSAFA Cup</a>",in South Africa,9,-9,1290,1435,2,-2,136,97
+257,June 6,2018,Norway,Panama,1,0,Friendly,in Norway,8,-8,1640,1659,1,0,53,48
+258,June 6,2018,Czechia,Nigeria,1,0,Friendly,in Austria,10,-10,1713,1681,1,0,41,43
+259,June 6,2018,Belgium,Egypt,3,0,Friendly,in Belgium,4,-4,1933,1646,0,0,8,50
+260,June 6,2018,Belarus,Hungary,1,1,Friendly,in Belarus,-1,1,1530,1585,0,0,75,66
+261,June 7,2018,Uruguay,Uzbekistan,3,0,Friendly,in Uruguay,3,-3,1894,1599,0,-1,12,59
+262,June 7,2018,Portugal,Algeria,3,0,Friendly,in Portugal,1,-1,1970,1508,0,0,6,80
+263,June 7,2018,India,New Zealand,1,2,Friendly tournament,in India,-7,7,1189,1503,-3,2,167,81
+264,June 7,2018,Iceland,Ghana,2,2,Friendly,in Iceland,-6,6,1764,1645,0,2,23,52
+265,June 7,2018,French Guiana,Guadeloupe,2,0,Friendly tournament,in Martinique,16,-16,1377,1243,6,-5,114,150
+266,June 7,2018,England,Costa Rica,2,0,Friendly,in England,5,-5,1948,1750,0,-1,7,27
+267,June 7,2018,Bolivia,South Korea,0,0,Friendly,in Austria,2,-2,1675,1729,0,0,46,36
+268,June 8,2018,South Africa,Botswana,3,0,"<a href=""2018_COSAFA_Cup"" onclick=""handleLink('2018_COSAFA_Cup'); return false;"">COSAFA Cup</a>",in South Africa,10,-10,1565,1340,1,0,68,122
+269,June 8,2018,Lesotho,Madagascar,1,0,"<a href=""2018_COSAFA_Cup"" onclick=""handleLink('2018_COSAFA_Cup'); return false;"">COSAFA Cup</a>",in South Africa,24,-24,1314,1339,5,-3,131,123
+270,June 8,2018,Switzerland,Japan,2,0,Friendly,in Switzerland,4,-4,1890,1666,0,0,14,47
+271,June 8,2018,Poland,Chile,2,2,Friendly,in Poland,-2,2,1829,1869,0,0,19,15
+272,June 8,2018,Kenya,Taiwan,4,0,Friendly tournament,in India,6,-6,1358,975,1,0,120,192
+273,June 8,2018,Iran,Lithuania,1,0,Friendly,in Russia,2,-2,1789,1393,0,-1,21,108
+274,June 8,2018,Germany,Saudi Arabia,2,1,Friendly,in Germany,1,-1,2077,1591,0,0,2,63
+275,June 8,2018,Croatia,Senegal,2,1,Friendly,in Croatia,5,-5,1853,1735,0,-1,17,34
+276,June 9,2018,Zimbabwe,Zambia,4,2,"<a href=""2018_COSAFA_Cup"" onclick=""handleLink('2018_COSAFA_Cup'); return false;"">COSAFA Cup</a>",in South Africa,34,-34,1469,1445,8,-9,89,95
+277,June 9,2018,Tuvalu,Chagos Islands,6,1,Friendly,in England,22,-22,780,776,3,-2,211,212
+278,June 9,2018,Sweden,Peru,0,0,Friendly,in Sweden,1,-1,1795,1915,0,0,20,10
+279,June 9,2018,Spain,Tunisia,1,0,Friendly,in Russia,2,-2,2044,1657,0,-1,3,49
+280,June 9,2018,Serbia,Bolivia,5,1,Friendly,in Austria,14,-14,1777,1661,2,-1,22,47
+281,June 9,2018,Latvia,Azerbaijan,1,3,Friendly,in Latvia,-18,18,1349,1403,-2,5,120,106
+282,June 9,2018,Hungary,Australia,1,2,Friendly,in Hungary,-9,9,1576,1742,0,2,66,33
+283,June 9,2018,France,United States,1,1,Friendly,in France,-8,8,1987,1764,0,1,4,24
+284,June 9,2018,Finland,Belarus,2,0,Friendly,in Finland,8,-8,1605,1522,2,-1,58,76
+285,June 9,2018,Estonia,Morocco,1,3,Friendly,in Estonia,-10,10,1487,1733,-2,4,84,36
+286,June 9,2018,Denmark,Mexico,2,0,Friendly,in Denmark,11,-11,1856,1850,2,-2,16,18
+287,June 10,2018,India,Kenya,2,0,Friendly tournament,in India,27,-27,1216,1331,8,-5,159,124
+288,June 10,2018,Austria,Brazil,0,3,Friendly,in Austria,-6,6,1742,2142,-3,0,32,1
+289,June 11,2018,Senegal,South Korea,2,0,Friendly,in Austria,15,-15,1750,1714,8,-3,27,40
+290,June 11,2018,Belgium,Costa Rica,4,1,Friendly,in Belgium,6,-6,1939,1744,0,-5,8,32
+291,June 12,2018,Poland,Lithuania,4,0,Friendly,in Poland,2,-2,1831,1391,0,0,19,109
+292,June 12,2018,Japan,Paraguay,4,2,Friendly,in Austria,18,-18,1684,1728,3,-7,43,37
+293,June 14,2018,Russia,Saudi Arabia,5,0,"<a href=""2018_World_Cup"" onclick=""handleLink('2018_World_Cup'); return false;"">World Cup</a>",in Russia,31,-31,1709,1560,3,-5,42,68
+294,June 15,2018,Uruguay,Egypt,1,0,"<a href=""2018_World_Cup"" onclick=""handleLink('2018_World_Cup'); return false;"">World Cup</a>",in Russia,12,-12,1906,1634,0,-4,12,54
+295,June 15,2018,Portugal,Spain,3,3,"<a href=""2018_World_Cup"" onclick=""handleLink('2018_World_Cup'); return false;"">World Cup</a>",in Russia,6,-6,1976,2038,0,0,6,3
+296,June 15,2018,Iran,Morocco,1,0,"<a href=""2018_World_Cup"" onclick=""handleLink('2018_World_Cup'); return false;"">World Cup</a>",in Russia,25,-25,1814,1708,1,-8,20,43
+297,June 16,2018,France,Australia,2,1,"<a href=""2018_World_Cup"" onclick=""handleLink('2018_World_Cup'); return false;"">World Cup</a>",in Russia,12,-12,1999,1730,0,-2,4,34
+298,June 16,2018,Denmark,Peru,1,0,"<a href=""2018_World_Cup"" onclick=""handleLink('2018_World_Cup'); return false;"">World Cup</a>",in Russia,35,-35,1891,1880,4,-5,12,15
+299,June 16,2018,Croatia,Nigeria,2,0,"<a href=""2018_World_Cup"" onclick=""handleLink('2018_World_Cup'); return false;"">World Cup</a>",in Russia,24,-24,1877,1657,1,-3,16,48
+300,June 16,2018,Argentina,Iceland,1,1,"<a href=""2018_World_Cup"" onclick=""handleLink('2018_World_Cup'); return false;"">World Cup</a>",in Russia,-17,17,1969,1781,-1,2,6,22
