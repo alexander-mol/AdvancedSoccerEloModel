@@ -17,9 +17,7 @@ df['Elo_Score_Before_1'] = df['Elo_Score_New_1'] - df['Elo_Score_Change_1']
 df['Elo_Score_Before_2'] = df['Elo_Score_New_2'] - df['Elo_Score_Change_2']
 
 df['Outcome'] = df.apply(lambda x: 'T1' if x['Score_1'] > x['Score_2'] else 'draw' if x['Score_1'] == x['Score_2'] else 'T2', axis=1)
-#
-# with open('2010-2018_patched_df.p', 'wb') as f:
-#     pickle.dump(df, f)
+
 
 # need to randomize the 1st and 2nd team to avoid the bias introduced by always having the winning team in position 1
 # unless the losing team is "home"
@@ -27,6 +25,9 @@ swap_12 = np.random.choice([True, False], len(df))
 swap_columns = [col[:-2] for col in df.columns if '_1' in col]
 for col in swap_columns:
     df.loc[swap_12, col+'_1'], df.loc[swap_12, col+'_2'] = df.loc[swap_12, col+'_2'], df.loc[swap_12, col+'_1']
+
+with open('2010-2018_patched_df.p', 'wb') as f:
+    pickle.dump(df, f)
 
 # add features
 df['Elo_Score_Diff'] = df['Elo_Score_Before_2'] - df['Elo_Score_Before_1']
