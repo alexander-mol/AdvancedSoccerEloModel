@@ -22,4 +22,4 @@ def expectation_scores(elo1, elo2, home_advantage_flag=False, friendly_flag=Fals
     e2 = apply_regression(features, coefs[mid:])
     return e1, e2
 
-print(expectation_scores(1000, 1000))
+print(expectation_scores(1800, 1800))
