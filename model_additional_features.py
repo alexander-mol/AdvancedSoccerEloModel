@@ -52,13 +52,13 @@ df['Avg_Against_1xAvg_Against_2'] = df['Avg_Against_1'] * df['Avg_Against_2']
 df['Avg_For_1xAvg_Against_2'] = df['Avg_For_1'] * df['Avg_Against_2']
 df['Avg_Against_1xAvg_For_2'] = df['Avg_Against_1'] * df['Avg_For_2']
 
-features = ['Elo_Score_Before_1', 'Elo_Score_Before_2', 'Elo_Score_Diff', 'Score_Diff^2', 'LN(Elo_Score_Before_1)',
-            'LN(Elo_Score_Before_2)', 'Elo_Score_Product', 'Friendly_Flag', 'Home_Advantage',
-            'Home_AdvantagexElo_Score_Diff',
-            'Avg_For_1', 'Avg_Against_1', 'Avg_For_2', 'Avg_Against_2', 'Avg_For_1xAvg_For_2',
-            'Avg_Against_1xAvg_Against_2', 'Avg_For_1xAvg_Against_2', 'Avg_Against_1xAvg_For_2']
-# features = ['Avg_For_1', 'Avg_Against_1', 'Avg_For_2', 'Avg_Against_2', 'Avg_For_1xAvg_For_2',
-#             'Avg_Against_1xAvg_Against_2', 'Avg_For_1xAvg_Against_1', 'Avg_Against_1xAvg_For_2']
+# features = ['Elo_Score_Before_1', 'Elo_Score_Before_2', 'Elo_Score_Diff', 'Score_Diff^2', 'LN(Elo_Score_Before_1)',
+#             'LN(Elo_Score_Before_2)', 'Elo_Score_Product', 'Friendly_Flag', 'Home_Advantage',
+#             'Home_AdvantagexElo_Score_Diff',
+#             'Avg_For_1', 'Avg_Against_1', 'Avg_For_2', 'Avg_Against_2', 'Avg_For_1xAvg_For_2',
+#             'Avg_Against_1xAvg_Against_2', 'Avg_For_1xAvg_Against_2', 'Avg_Against_1xAvg_For_2']
+features = ['Avg_For_1', 'Avg_Against_1', 'Avg_For_2', 'Avg_Against_2', 'Avg_For_1xAvg_For_2',
+            'Avg_Against_1xAvg_Against_2', 'Avg_For_1xAvg_Against_2', 'Avg_Against_1xAvg_For_2', 'Home_Advantage']
 
 X = df[features]
 y_1 = df.Score_1
@@ -86,9 +86,17 @@ for i in range(20):
 print('\n')
 for i, feature in enumerate(features):
     print(feature, reg_1.coef_[i], reg_2.coef_[i])
+#
+# with open('reg_model_att_def.p', 'wb') as f:
+#     pickle.dump((reg_1, reg_2), f)
+# #
+# with open('average_goals_dict.p', 'wb') as f:
+#     pickle.dump(avg_goals_dict, f)
 
-with open('reg_model_add_features.p', 'wb') as f:
-    pickle.dump((reg_1, reg_2), f)
-
-with open('average_goals_dict.p', 'wb') as f:
-    pickle.dump(avg_goals_dict, f)
+# temp
+for_1 = 1.810
+against_1 = 0.709
+for_2 = 1.238
+against_2 = 0.896
+x = np.array([for_1, against_1, for_2, against_2, for_1*for_2, against_1*against_2, for_1*against_2, against_1*for_2, 0]).reshape(1, -1)
+print(reg_1.predict(x), reg_2.predict(x))
