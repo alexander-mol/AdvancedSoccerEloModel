@@ -35,11 +35,11 @@ ADJUSTMENT_RATE = 0.021  # optimized number
 
 # for i in range(0, 21):
 for iter in range(20):
-    with open('average_goals_dict.p', 'rb') as f:
-        att_def_power = pickle.load(f)
-    # convert to strings
-    for key in att_def_power:
-        att_def_power[key] = list(att_def_power[key])
+    # with open('average_goals_dict.p', 'rb') as f:
+    #     att_def_power = pickle.load(f)
+    # # convert to strings
+    # for key in att_def_power:
+    #     att_def_power[key] = list(att_def_power[key])
 
 
     total_error = 0
@@ -73,7 +73,7 @@ for iter in range(20):
 
     X = df[features]
     y_1 = df.Score_1
-    y_2 = df.Scpre_2
+    y_2 = df.Score_2
     reg_1 = LinearRegression()
     reg_1.fit(X, y_1)
     print(reg_1.score(X, y_1))
