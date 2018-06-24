@@ -34,8 +34,11 @@ y_c = df['Outcome']
 outcome_to_int_map = {'T1':0, 'T2': 1, 'draw':2}
 outcome_int = y_c.apply(lambda x: outcome_to_int_map[x])
 
+hot_start = np.array([[ -1.44804123e-02, 9.69717241e-03, 9.22752006e-03, -1.92846927e-04, -5.26508671e-07, -1.99169373e-01, -2.08277502e-01, -6.97185005e-06, -4.07455680e-01, -2.20530669e-01, 1.91809715e-02, -4.65832723e-02, 9.54369609e-03, 9.86974336e-03, -7.61132959e-04, 8.56017445e-07, -2.74207199e-01, -2.68930190e-01, -6.78173539e-06, -5.43140510e-01, 1.03599439e-02, -2.15621714e-02]])
+
 coefs_1 = np.random.rand(len(features)+1) / 1000000000
 coefs_2 = np.random.rand(len(features)+1) / 1000000000
+
 mid = len(coefs_1)
 
 def brier_on_data(coefs):
@@ -48,14 +51,10 @@ def brier_on_data(coefs):
                           + predicted_outcome_probs[2] * (y_c == 'draw')
     return utils.brier_score(actual_outcome_prob)
 
-print(brier_on_data(np.array([-3.20889907e-02, 1.10602436e-02, 1.26205546e-02, -3.74474669e-03, -5.94367708e-06, -2.79859775e-01,
-         -2.83783138e-01, -8.36086136e-06, -5.63650882e-01, -9.45846565e-02, -8.37924943e-01, -6.82393779e-02,
-         1.32464843e-02, 1.29986712e-02, 4.68819670e-03, -6.54666855e-06, -4.05330334e-01, -4.08653704e-01,
-         -8.81567097e-06, -8.13978862e-01, 7.15892934e-02, 7.69420643e-01])))
 # utils.optimize(brier_on_data, np.concatenate((coefs_1, coefs_2)), learning_rate=0.1)
-# res = minimize(brier_on_data, np.concatenate((coefs_1, coefs_2)))
-# print(res)
-# print(res.x)
+res = minimize(brier_on_data, hot_start)  # np.concatenate((coefs_1, coefs_2))
+print(res)
+print(res.x)
 
 
 """
