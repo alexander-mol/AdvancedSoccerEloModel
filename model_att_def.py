@@ -34,7 +34,7 @@ def predict(a1, d1, a2, d2):
 ADJUSTMENT_RATE = 0.021  # optimized number
 
 # for i in range(0, 21):
-for iter in range(20):
+for iter in range(100):
     # with open('average_goals_dict.p', 'rb') as f:
     #     att_def_power = pickle.load(f)
     # # convert to strings
@@ -83,6 +83,7 @@ for iter in range(20):
 
     for i, feature in enumerate(features):
         print(feature, reg_1.coef_[i], reg_2.coef_[i])
+    print()
 
 
 
@@ -94,3 +95,9 @@ for iter in range(20):
 # plt.plot(a1)
 # plt.plot(d1)
 # plt.show()
+
+with open('team_power.p', 'wb') as f:
+    pickle.dump(att_def_power, f)
+
+with open('reg_model_power.p', 'wb') as f:
+    pickle.dump((reg_1, reg_2), f)
