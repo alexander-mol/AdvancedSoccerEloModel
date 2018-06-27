@@ -9,10 +9,10 @@ import utils
 with open('2010-2018_patched_df.p', 'rb') as f:
     df = pickle.load(f)
 
-with open('reg_model_att_def.p', 'rb') as f:
+with open('reg_model_power.p', 'rb') as f:
     reg_1, reg_2 = pickle.load(f)
 
-with open('average_goals_dict.p', 'rb') as f:
+with open('team_power.p', 'rb') as f:
     att_def_power = pickle.load(f)
 # convert to strings
 for key in att_def_power:
@@ -24,17 +24,18 @@ df['Home_Advantage'] = df.apply(lambda x: 1 if x['Country_1'] in x['Location'] e
 features = ['A1', 'D1', 'A2', 'D2', 'A1xA2',
             'D1xD2', 'A1xD2', 'D1xA2', 'Home_Advantage']
 
-def make_x(a1, d1, a2, d2):
-    return np.array([a1, d1, a2, d2, a1*a2, d1*d2, a1*d2, d1*a2, row['Home_Advantage']]).reshape(1, -1)
+def make_x(a1, d1, a2, d2, home_advantange):
+    return np.array([a1, d1, a2, d2, a1*a2, d1*d2, a1*d2, d1*a2, home_advantange]).reshape(1, -1)
 
-def predict(a1, d1, a2, d2):
-    x = make_x(a1, d1, a2, d2)
+def predict(a1, d1, a2, d2, home_advantage):
+    x = make_x(a1, d1, a2, d2, home_advantage)
     return reg_1.predict(x)[0], reg_2.predict(x)[0]
 
-ADJUSTMENT_RATE = 0.021  # optimized number
+ADJUSTMENT_RATE = 0.021 #0.021  # optimized number
 
 # for i in range(0, 21):
-for iter in range(100):
+direction_forwards = False
+for iter_num in range(1000):  # must be even
     # with open('average_goals_dict.p', 'rb') as f:
     #     att_def_power = pickle.load(f)
     # # convert to strings
@@ -48,12 +49,19 @@ for iter in range(100):
     for col in ['A1', 'D1', 'A2', 'D2']:
         df[col] = 0
 
-    for i, row in df.iterrows():
+    if direction_forwards:
+        ordered_rows = range(len(df))
+    else:
+        ordered_rows = reversed(range(len(df)))
+    direction_forwards = not direction_forwards
+
+    for i in range(len(df)):
+        row = df.iloc[i]
         a1, d1 = att_def_power[row.Country_1]
         a2, d2 = att_def_power[row.Country_2]
         df.loc[i, 'A1'], df.loc[i, 'D1'] = a1, d1
         df.loc[i, 'A2'], df.loc[i, 'D2'] = a2, d2
-        e1, e2 = predict(a1, d1, a2, d2)
+        e1, e2 = predict(a1, d1, a2, d2, row.Home_Advantage)
         total_error += (row.Score_1 - e1) ** 2 + (row.Score_2 - e2) ** 2
         # update team power
         att_def_power[row.Country_1][0] += (row.Score_1 - e1) * ADJUSTMENT_RATE
@@ -64,6 +72,7 @@ for iter in range(100):
 
         # if i % 100 == 0:
         #     print(i)
+    print(f'Iteration: {iter_num}')
     print(total_error)
 
     df['A1xA2'] = df['A1'] * df['A2']
