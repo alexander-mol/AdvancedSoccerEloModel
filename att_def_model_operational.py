@@ -18,8 +18,8 @@ def predict(a1, d1, a2, d2, home_advantage):
     return reg_1.predict(x)[0], reg_2.predict(x)[0]
 
 
-country_1 = 'Germany'
-country_2 = 'South Korea'
+country_1 = 'England'
+country_2 = 'Belgium'
 home_advantage = 0
 
 a1, d1 = att_def_power[country_1]
