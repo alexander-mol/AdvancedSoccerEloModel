@@ -6,20 +6,17 @@ from sklearn.linear_model import LinearRegression
 
 import utils
 
-with open('2010-2018_patched_df.p', 'rb') as f:
+with open('data/2010-2018_patched_df.p', 'rb') as f:
     df = pickle.load(f)
 
-with open('reg_model_att_def.p', 'rb') as f:
+with open('reg_model_simple.p', 'rb') as f:
     reg_1, reg_2 = pickle.load(f)
 
-with open('standardized_power.p', 'rb') as f:
-    att_def_power = pickle.load(f)
-# convert to strings
-for key in att_def_power:
-    att_def_power[key] = (np.random.random(2))
-
-df['rScore_1'] = np.sqrt(df.Score_1)
-df['rScore_2'] = np.sqrt(df.Score_2)
+# with open('standardized_power.p', 'rb') as f:
+#     att_def_power = pickle.load(f)
+# # convert to strings
+# for key in att_def_power:
+#     att_def_power[key] = (np.random.random(2))
 
 att_def_power = {}
 countries = set(list(df.Country_1.unique()) + list(df.Country_2.unique()))
@@ -32,18 +29,18 @@ for country in countries:
 
 df['Home_Advantage'] = df.apply(lambda x: 1 if x['Country_1'] in x['Location'] else -1 if x['Country_2'] in x['Location'] else 0, axis=1)
 
-features = ['A1', 'D1', 'A2', 'D2', 'A1xA2',
-            'D1xD2', 'A1xD2', 'D1xA2', 'Home_Advantage']
+# features = ['A1', 'D1', 'A2', 'D2', 'A1xA2', 'D1xD2', 'A1xD2', 'D1xA2', 'Home_Advantage']
+features = ['A1', 'D1', 'A2', 'D2', 'Home_Advantage']
 
-def make_x(a1, d1, a2, d2, home_advantange):
-    return np.array([a1, d1, a2, d2, a1*a2, d1*d2, a1*d2, d1*a2, home_advantange]).reshape(1, -1)
+def make_x(a1, d1, a2, d2, home_advantage):
+    return np.array([a1, d1, a2, d2, a1 * a2, d1 * d2, a1 * d2, d1 * a2, home_advantage]).reshape(1, -1)
 
 def predict(a1, d1, a2, d2, home_advantage):
-    x = make_x(a1, d1, a2, d2, home_advantage)
+    # x = make_x(a1, d1, a2, d2, home_advantage)
+    x = np.array([a1, d1, a2, d2, home_advantage]).reshape(1, -1)
     return reg_1.predict(x)[0], reg_2.predict(x)[0]
 
-
-ADJUSTMENT_RATE = 0.02  # 0.021  # optimized number
+ADJUSTMENT_RATE = 0.05  # 0.021  # optimized number
 
 # Optimization of adjustment rate
 # ADJUSTMENT_RATE = 0.00 gives 20582, 20582 stable after 3 iterations
@@ -54,9 +51,8 @@ ADJUSTMENT_RATE = 0.02  # 0.021  # optimized number
 # ADJUSTMENT_RATE = 0.01 gives 20670, 20676 pretty stable after 40 iterations
 
 
-# for i in range(0, 21):
 direction_forwards = False
-for iter_num in range(4000):  # must be even
+for iter_num in range(1000):  # must be even
 
     total_error = 0
     # make sure dataframe is sorted in chronological order
@@ -84,15 +80,13 @@ for iter_num in range(4000):  # must be even
         att_def_power[row.Country_2][0] += (row.Score_2 - e2) * ADJUSTMENT_RATE
         att_def_power[row.Country_2][1] += (row.Score_1 - e1) * ADJUSTMENT_RATE
 
-        # if i % 100 == 0:
-        #     print(i)
     print(f'Iteration: {iter_num}, Direction {"forwards" if direction_forwards else "backwards"}, BE score: {att_def_power["Belgium"]}')
     print(total_error)
 
-    df['A1xA2'] = df['A1'] * df['A2']
-    df['D1xD2'] = df['D1'] * df['D2']
-    df['A1xD2'] = df['A1'] * df['D2']
-    df['D1xA2'] = df['D1'] * df['A2']
+    # df['A1xA2'] = df['A1'] * df['A2']
+    # df['D1xD2'] = df['D1'] * df['D2']
+    # df['A1xD2'] = df['A1'] * df['D2']
+    # df['D1xA2'] = df['D1'] * df['A2']
 
     X = df[features]
     y_1 = df.Score_1
@@ -109,16 +103,6 @@ for iter_num in range(4000):  # must be even
     print()
     direction_forwards = not direction_forwards
 
-
-
-# nl_df = df[(df.Country_1 == 'Netherlands') | (df.Country_2 == 'Netherlands')]
-# a1 = np.where(nl_df.Country_1 == 'Netherlands', nl_df.A1, nl_df.A2)
-# d1 = np.where(nl_df.Country_1 == 'Netherlands', nl_df.D1, nl_df.D2)
-#
-# from matplotlib import pyplot as plt
-# plt.plot(a1)
-# plt.plot(d1)
-# plt.show()
 
 with open('team_power.p', 'wb') as f:
     pickle.dump(att_def_power, f)
